@@ -1,0 +1,25 @@
+<div class="cont-head">
+	<div class="cont-text container">
+        <h1>Acesso administrativo</h1>
+    </div>
+</div>
+
+<div id="inner-content" class="container">
+
+  <div class="row-fluid">
+    <div class="span4"></div>
+    <div class="span4" id="login">
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name), id: 'contact-form') do |f| %>
+        <h1>Credenciais</h1>
+
+        <%= f.email_field :email, autofocus: true, id: 'username', placeholder: "Email" %>
+
+        <%= f.password_field :password, autocomplete: "off", id: 'password', placeholder: "Senha" %>
+        <%= f.submit "Login", class: "" %>
+      <% end %>
+    </div>
+    <div class="span4"></div>
+
+
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.t-header div {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.t-body div {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.t-body {
+  border-bottom: 1px dashed #eaeaea;
+}
+
+.t-table {
+  margin-bottom: 30px;
+}
+
+.t-body .t-center { text-align: center; }
+
+#companies { margin-bottom: 30px; }

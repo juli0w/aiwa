@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<title>Aiwa Representações</title>
+
+	<%= csrf_meta_tags %>
+	
+	<%= javascript_include_tag "application" %>
+  
+	<%= stylesheet_link_tag "application", :media => "all" %>
+</head>
+<body>
+
+	<div id="container">
+
+      <%= render "layouts/header" %>
+
+      <div id="content">
+        <%= yield %>
+      </div>
+      
+      <%= render "layouts/footer" %>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<footer class="clearfix">
+
+    <div class="innerfooter container">
+        <article class="about span3 clearfix" >
+            <h2>Navegação</h2>
+          <div class="navfooter">
+              <p><a href="#">Início</a></p>
+              <p><a href="#">Institucional</a></p>
+              <p><a href="#">Representações</a></p>
+              <p><a href="#">Blog</a></p>
+              <p><%= link_to "Restrito", new_admin_session_path %></p>
+              <p><a href="#">Contato</a></p>
+          </div>
+        </article>
+
+        <article class="Twiter span3 clearfix">
+
+            <h2>Últimas do blog</h2>
+            <div>
+              <% (1..3).each do |n| %>
+                <p><img alt="" src="/images/twi-icon.png">
+                <%= n %> Título post <a href="#">http://www.aiwa.com.br/post</a><br>
+                  <span>11 horas atrás</span></p>
+              <% end %>
+            </div>
+
+        </article>
+
+        <article class="contact-info span3 clearfix">
+            <h2>Contato</h2>
+            <p><img alt="" src="/images/con-info1.png"><span>047 3429-4000</span></p>
+            <p><img alt="" src="/images/con-info2.png"><span><a href="#">aiwa@aiwa.com.br</a></span></p>
+            <p><img alt="" src="/images/con-info4.png"><span>Rua Fátima, 429 - Joinville/SC</span></p>
+        </article>
+    </div>
+    <div class="end">
+        <div class="back-to-top">
+            <img alt="" src="/images/back-to-top.png">
+            <p>&copy; Aiwa Representações</p>
+        </div>
+    </div>
+
+
+</footer>

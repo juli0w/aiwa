@@ -1,0 +1,41 @@
+<div class="cont-head">
+	<div class="cont-text container">
+        <h1>Cadastro de representadas</h1>
+    </div>
+</div>
+<div id="inner-content" class="container">
+  <div id="companies" class="clearfix">
+    
+    <div class="t-header row-fluid clearfix">
+      
+      <div class="span1">Código</div>
+      <div class="span4">Empresa</div>
+      <div class="span4">Link</div>
+      <div class="span3">Opções</div>
+        
+    </div>
+    
+  <% (1..5).each do |company| %>
+    
+    <div class="t-body row-fluid clearfix">
+      
+      <div class="span1">1</div>
+      <div class="span4">Nome empresa</div>
+      <div class="span4"><%= link_to "http://www.aiwa.com.br", "#" %></div>
+      <div class="span3 t-center">
+        <%= link_to "Editar", "#" %>
+        <%= link_to "Remover", "#" %>
+      </div>
+      
+    </div>
+    
+  <% end %>
+    
+    <div class="row-fluid clearfix" style="margin-top: 30px;">
+      <div class="span12">
+      <%= link_to "Cadastrar", "#", class: "btn btn-small" %>
+      </div>
+    </div>
+    
+  </div>
+</div>

@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+.map {margin-bottom: 30px; border: 1px solid #dedede;}
+.navfooter a {
+  color: #0087ED;
+  margin-left: 15px;
+}
+.navfooter a:hover { color: white; }
+.home-skills ul {
+  list-style: circle;
+  padding: 15px 15px 10px 0px; 
+}
+.home-skills li {
+  padding: 5px 0;
+}
+
+.home-skills .small-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+  padding-left: 22px;
+  padding-top: 0;
+}
+
+.home-skills p {
+  text-indent: 35px; 
+  padding: 15px 15px 10px 0px; 
+  text-align: justify;
+}
+
+.small-desc {
+  padding: 10px;
+}
+
+.recuo h1 {
+  text-indent: 35px;
+}
+
+.recuo p {
+  text-indent: 35px;
+  padding: 5px 0;
+  text-align: justify;
+}
